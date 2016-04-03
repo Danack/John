@@ -1,0 +1,28 @@
+{
+    "name": "danack/john",
+    "homepage": "https://github.com/danack/john",
+    "description": "A tool for downloading code from github and analyzing it.",
+    "require-dev": {
+    },
+    "require":{
+        "danack/console": "~2.6.0",
+        "danack/artaxservicebuilder": "dev-master as 0.4.1",
+        "danack/tier": "0.5.0",
+        "danack/githubartaxservice": "dev-master",
+        "nikic/php-parser": "v2.0.1",
+        "roave/better-reflection": "^1.0.1",
+        "rdlowrey/auryn": "^1.0.2"
+    },
+    "autoload": {
+        "psr-0": {
+            "John": ["lib/", "src/"]
+        },
+        "files": ["lib/functions.php"]
+    },
+    "autoload-dev": {
+        "psr-0": {
+
+        }
+    },
+    "minimum-stability": "dev"
+}
